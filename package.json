@@ -1,0 +1,19 @@
+{
+  "name": "fetch-trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "import-board": "./src/import-board.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "execa": "^4.0.3",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
